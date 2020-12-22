@@ -265,3 +265,106 @@ p {
     font-size: 17px;
     cursor: pointer;
 }
+
+/* Smartphones */
+@media (max-width: 500px) {
+
+    /* Utility Section */ 
+
+    /* Navbar */
+
+    #navbar h1 {
+        float: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #navbar ul {
+        float: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar ul li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Header Section */ 
+
+    #header-section .content {
+        padding: 4rem 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* Home-info Section */
+
+    #home-info .info-img {
+        display: none;
+    }
+
+    #home-info .info-content {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Review Section */
+
+    .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer */ 
+
+    #main-footer {
+        font-size: 0.8rem;
+    }
+
+    /* About Page */
+    #about .about-content {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #about .about-img img {
+        float: none;
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding: 1rem 0;
+    }
+
+    /* Reviews Section */ 
+
+    #reviews {
+        height: auto;
+    }
+
+    #reviews .review-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #reviews .review-box img {
+        float: none;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+}
